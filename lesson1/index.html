@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            table, th, td {
+            border: 1px solid black;
+            }
+            @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+            *{
+                font-family: "Inter", sans-serif;
+            }
+    </style>
+</head>
+
+<body>
+    <h1>Form Đăng Ký</h1>
+    <form action="">
+        <div>
+            <label for="fname">Họ Tên:</label>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label for="femail">Email:</label>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label for="fpassword">Mật Khẩu:</label>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label for="">Giới tính: </label>
+            <label for="">Nam</label>
+            <input type="radio" name="gender" >
+            <label for="">Nữ</label>
+            <input type="radio" name="gender" >
+        </div>
+        <br>
+        <div>
+            <label for="">Sở Thích: </label>
+            <input type="checkbox" id="book">
+            <label for="">Đọc Sách</label>
+            <input type="checkbox" id="book">
+            <label for="">Du Lịch</label>
+        </div>
+        <br>
+        <button >Gửi</button>
+        <br>
+        <table style="width: 25%;">
+            <tr>
+                <th Rowspan = "2" >Môn Học</th>
+                <th colspan = "2" >Kỳ 1</th>
+                <th colspan = "2" >Kỳ 2</th>
+            </tr>
+            <tr>
+                <td>Điểm Giữa Kỳ</td>
+                <td>Điểm Cuối Kỳ</td>
+                <td>Điểm Giữa Kỳ</td>
+                <td>Điểm Cuối Kỳ</td>
+            </tr>
+            <tr>
+                <td>Toán</td>
+                <td>8</td>
+                <td>9</td>
+                <td>7</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Văn</td>
+                <td>8</td>
+                <td>9</td>
+                <td>7</td>
+                <td>10</td>
+            </tr>
+        </table>
+    </form>
+    <h2>Nhúng Video và Âm thanh</h2>
+    <h3>Video youtube</h3>
+    <iframe src="https://www.youtube.com/watch?v=7HgJIAUtICU" width="300px" height="300px" frameborder="0"></iframe>
+    <h4>Tệp âm thanh</h4>
+    
+</body>
+</html>
